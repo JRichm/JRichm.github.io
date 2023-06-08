@@ -22,8 +22,6 @@ body section {
     width: 100vw;
 }
 
-
-
 /* name-card */
 .name-card {
     background-image: url('https://lh3.googleusercontent.com/5DqGpZWh-EGuUM66GCfmhd43BK48LVZ03nUmHvREo9envc7NvObFCCDBLT9qqlgHOzhPhtGS0AVt89RCKGAcZ1ifn1WkWWMuwtVBQE9UYmWOodVq5ln2-g62Nc5BiAh7y09XQ9LAWg22hwxGowKfZCs_0qIASq2WY1K_Clv0hKtIbqLdZP6_AYyW0v9fNBaKUktp1TyM07tipmNf5aD-65gW1tnb-ejJbbtgEl5V58aUNZugBllvQB3bYiO2mLeWXQ3bPzIWqHI41SaTa9Im6NOVefu4c8WNw6cgjaKWn-QNhWEoCvhUPN0JWwu_fhfjRWKxZHZYgmjwVZyNc6G2VmkMv6XeFITTfFPFAKsKUUTnph6I8SetsmFvtd5n6MKN68aNE5KULNcLQqgok7JlTPj1a8H8THDSaPU6EtF8vlStxHcd4lYl_zl0BkM0mu3qOaQ9omsacJbnbmqaFOBzzRIK9YnIpUjyY_RssMZWQMr18-HIFIa39YKCjqsCwPrfvoQmbn86_TotC7XgBIODk3PsVXG3F4jGwq-9Xs7pGi82cfQXFJ7MwrghdcsVhI__Lrr89R6MhMRea5mjvn7MNbErNziOx9nDw_cFVcy0lioHSWkAT3bBNYbwZNY6wQ-crS2xiMnu6YCdNnddmV5sjhhovNC_sUI_6NEcKyUrWmSIq-wkjRESeflFvxfmnTRhur8Fkwlc_1-_XYv944zu2VP1hdH_yEcpg0UvVXYbIflmP8XDiFp9BB-AL2ZkPP6G45xnAFU3YYXu6MaZENnTRefj5Mc6_tNDCVKea_o0CTz4tujs-eFjtkVMdDkPtyHR2nUhZ6gG6eg4cClgyM7h1RxdlbAf0JRvSAUKsSHug4xLS2tEhScmXxnjgfA4V3VuIjaxiApgYtfup1NyEgqHjoEBUnbobC3doUTl5bvicoY4=w1684-h947-s-no?authuser=0');
@@ -134,6 +132,9 @@ nav a:hover {
 
 /* project-card */
 .projcect-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
     background-color: #ddd;
     z-index: 2;
@@ -142,6 +143,43 @@ nav a:hover {
 /* about-card */
 .about-card {
     background-color: #ccc;
+}
+
+.about-header {
+    font-family: 'Comfortaa', cursive; 
+    margin: 0px;
+}
+
+.about-statement {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    color:black;
+    width: 400px;
+}
+
+.about-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.about-div article {
+    margin: 100px;
+}
+
+.about-div span {
+    display: flex;
+}
+
+.about-div label {
+    font-family: 'Comfortaa', cursive; 
+    font-style: italic;
+    font-weight: 700;
+}
+.about-div p {
+    color:black;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* contact-card */
