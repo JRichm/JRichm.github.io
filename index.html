@@ -27,7 +27,7 @@
                 <div class="name-area">
                     <h1>James Richmond</h1>
                     <p>Software Developer</p>
-                    <button class="btn about-me">About Me</button>
+                    <button id="about-button" class="btn about-me">About Me</button>
                 </div>
                 <div class="link-list">
                     <a href="https://www.linkedin.com/in/james-richmond-527b00266/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
@@ -35,7 +35,7 @@
                     <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                 </div>
             </span>
-            <button class="btn works">Works</i></button>
+            <button id='works-button' class="btn works">Works</i></button>
         </section>
         <section id="projects-section" class="project-card cards">
             <div class="cards__container">
@@ -183,6 +183,8 @@
         const projectsLink = document.getElementById('projects-link');
         const aboutLink = document.getElementById('about-link');
         const contactLink = document.getElementById('contact-link');
+        const aboutButton = document.getElementById('about-button')
+        const workButton = document.getElementById('works-button');
     
         const projectsSection = document.getElementById('projects-section');
         const aboutSection = document.getElementById('about-section');
@@ -199,6 +201,14 @@
         contactLink.addEventListener('click', () => {
             contactSection.scrollIntoView({ behavior: 'smooth' });
         });
+
+        workButton.addEventListener('click', () => {
+            projectsSection.scrollIntoView({ behavior: 'smooth' });
+        })
+
+        aboutButton.addEventListener('click', () => {
+            aboutSection.scrollIntoView({ behavior: 'smooth' });
+        })
     </script>
 </body>
 </html>
