@@ -42,7 +42,8 @@ nav {
     margin-right: 600px;
 }
 
-nav a {
+nav p {
+    cursor: pointer;
     text-align: center;
     color:white;
     text-decoration: none;

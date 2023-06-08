@@ -19,9 +19,9 @@
     <div class="scroll-container">
         <section class="name-card">
             <nav>
-                <a href="">Projects</a>
-                <a href="">About</a>
-                <a href="">Contact</a>
+                <p id="projects-link">Projects</p>
+                <p id="about-link">About</p>
+                <p id="contact-link">Contact</p>
             </nav>
             <span class="main-area">
                 <div class="name-area">
@@ -37,7 +37,7 @@
             </span>
             <button class="btn works">Works</i></button>
         </section>
-        <section class="project-card cards">
+        <section id="projects-section" class="project-card cards">
             <div class="cards__container">
                 <div class="cards__wrapper">
                     <ul class="cards__items">
@@ -102,7 +102,7 @@
                 </div>
             </div>
         </section>
-        <section class="about-card">
+        <section id="about-section" class="about-card">
             <div class="about-div">
                 <article>
                     <h2 class="about-header">Hello and welcome!</h2>
@@ -138,7 +138,7 @@
                 </article>
             </div>
         </section>
-        <section class="contact-card">
+        <section id="contact-section" class="contact-card">
             <div class='social-div'>
                 <article>
                     <h2>Send me a message!</h2>
@@ -161,6 +161,7 @@
         </section>
     </div>
     <script>
+        // auto scroll script
         const scrollContainer = document.querySelector('.scroll-container');
         let isScrolling = false;
 
@@ -175,6 +176,28 @@
                 behavior: 'smooth'
                 });
             }, 350);
+        });
+    </script>
+    <script>
+        // nav bar scroll script
+        const projectsLink = document.getElementById('projects-link');
+        const aboutLink = document.getElementById('about-link');
+        const contactLink = document.getElementById('contact-link');
+    
+        const projectsSection = document.getElementById('projects-section');
+        const aboutSection = document.getElementById('about-section');
+        const contactSection = document.getElementById('contact-section');
+    
+        projectsLink.addEventListener('click', () => {
+            projectsSection.scrollIntoView({ behavior: 'smooth' });
+        });
+    
+        aboutLink.addEventListener('click', () => {
+            aboutSection.scrollIntoView({ behavior: 'smooth' });
+        });
+    
+        contactLink.addEventListener('click', () => {
+            contactSection.scrollIntoView({ behavior: 'smooth' });
         });
     </script>
 </body>
