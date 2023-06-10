@@ -194,7 +194,7 @@ nav a:hover {
     flex-direction: row;
     justify-content: center;
     padding-top: 75px;
-    height:45vh;
+    height:85vh;
 }
 
 .social-div {
@@ -292,4 +292,10 @@ nav a:hover {
     font-family: 'Work Sans', sans-serif;
     font-weight: bold;
     font-size: 18px;
+}
+
+#google-form {
+    background-color: #ddd;
+    border-radius: 15px;
+    margin: 25px;
 }
