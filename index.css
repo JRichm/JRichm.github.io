@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: #181722;
 }
 
 .scroll-container {
@@ -22,6 +23,13 @@ body section {
     width: 100vw;
 }
 
+.name-card-image {
+    height: 100%;
+    margin-bottom: -100vh;
+    background: url("https://wallpapercave.com/wp/wp2757874.gif");
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
 /* name-card */
 .name-card {
     background-size: cover;
@@ -29,7 +37,6 @@ body section {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin: -5px;
 }
 
 nav {
