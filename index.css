@@ -24,12 +24,12 @@ body section {
 
 /* name-card */
 .name-card {
-    background-image: url('https://i.imgur.com/PTSkyjZ.gifv');
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    margin: -5px;
 }
 
 nav {
@@ -66,13 +66,20 @@ nav a:hover {
     width: 100vw;
 }
 
+.title-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .name-area {
-    margin-left: 300px;
+    margin-left: 200px;
 }
 
 .name-area h1, p {  
     color:white;
-    margin: 11px;
+    margin: 0px;
 }
 
 .name-area h1 {  
@@ -114,8 +121,8 @@ nav a:hover {
 }
 
 .about-me:hover {
-    color: #16171e;
-    border: 5px solid #16171e;
+    color: #181722;
+    border: 5px solid #181722;
     background-color: orange;
 }
 
@@ -137,13 +144,13 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    background-color: #16171f;
+    background-color: #181722;
     z-index: 2;
 }
 
 /* about-card */
 .about-card {
-    background-color: #16171f;
+    background-color: #181722;
 }
 
 .about-header {
@@ -158,6 +165,7 @@ nav a:hover {
     font-size: 17px;
     width: 555px;
     padding: 25px;
+    color: #ccc !important;
 }
 
 .about-div {
@@ -186,9 +194,14 @@ nav a:hover {
     font-family: 'Work Sans', sans-serif;
 }
 
+.skills p {
+    margin-right: 20px;
+    color:#ccc;
+}
+
 /* contact-card */
 .contact-card {
-    background-color: #303038;
+    background-color: #181722;
     font-family: 'Comfortaa', cursive; 
     display: flex;
     flex-direction: row;
