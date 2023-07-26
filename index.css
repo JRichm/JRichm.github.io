@@ -23,13 +23,10 @@ body section {
     width: 100vw;
 }
 
-.name-card-image {
-    height: 100%;
-    min-width: 100vw;
-    margin-bottom: -100vh;
-    background: url("/images/wallpaper-background.gif");
-    background-color: rgba(255, 255, 255, 0.25);
-    background-size: cover;
+
+.name-card-image img {
+    width: 100vw;
+    margin-top: -55vh;
 }
 
 /* name-card */
@@ -69,10 +66,12 @@ nav a:hover {
 }
 
 .main-area {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100vw;
+    margin-top: -80vh;
 }
 
 .title-button {
