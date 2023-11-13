@@ -1,0 +1,22 @@
+{
+    "dates": [
+        {
+            "dateID": 0,
+            "title": "We Met at IKEA",
+            "location": "IKEA",
+            "date": "2021-01-15T14:00:00-02:00"
+        },
+        {
+            "dateID": 1,
+            "title": "Hyatt Hotel",
+            "location": "Hyatt Lehi",
+            "date": "2021-02-16T14:00:00-02:00"
+        },
+        {
+            "dateID": 2,
+            "title": "",
+            "location": "",
+            "date": "2021-02-16T14:00:00-02:00"
+        }
+    ]
+}
